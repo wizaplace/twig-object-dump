@@ -1,0 +1,6 @@
+services:
+    twig_object_dump.twig_extension:
+        class: Wizaplace\TwigObjectDumpBundle\Twig\TwigObjectDumpExtension
+        public: false
+        tags:
+            - { name: twig.extension }

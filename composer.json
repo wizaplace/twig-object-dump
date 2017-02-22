@@ -1,0 +1,16 @@
+{
+    "name": "wizaplace/twig-object-dump",
+    "description": "Twig object dump bundle ",
+    "keywords": ["Twig", "dump", "object"],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "require": {
+        "php": "^7.0",
+        "symfony/twig-bundle": "^3.0",
+        "symfony/framework-bundle": "^3.0",
+        "symfony/var-dumper": "^3.0"
+    },
+    "autoload": {
+        "psr-4": { "Wizaplace\\TwigObjectDumpBundle": "" }
+    }
+}
