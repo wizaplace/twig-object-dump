@@ -23,5 +23,5 @@ $ composer install
 To ensure that you use the right coding standard, use `coke` :
 
 ```
-$ coke
+$ vendor/bin/coke
 ```
