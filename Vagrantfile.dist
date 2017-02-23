@@ -1,0 +1,26 @@
+VAGRANTFILE_API_VERSION = '2'
+
+Vagrant.require_version ">= 1.8.0"
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+    # Box
+    config.vm.box = 'kuikui/modern-lamp'
+    config.vm.box_version = ">= 2.2.0"
+
+    config.vm.provider "virtualbox" do |v|
+      v.memory = 2048
+      v.customize ['modifyvm', :id, '--cableconnected1', 'on']
+    end
+
+    # Hostname
+    config.vm.hostname = 'twig-var-dump'
+
+    # Network
+    config.vm.network 'private_network', type: 'dhcp'
+
+    # SSH
+    config.ssh.forward_agent = true
+
+    # Folders
+    config.vm.synced_folder '.', '/vagrant', type: 'nfs', mount_options: ['nolock', 'actimeo=1', 'fsc']
+end

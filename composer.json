@@ -11,6 +11,6 @@
         "symfony/var-dumper": "^3.0"
     },
     "autoload": {
-        "psr-4": { "Wizaplace\\TwigObjectDumpBundle": "" }
+        "psr-4": { "Wizaplace\\TwigObjectDumpBundle\\": "" }
     }
 }
