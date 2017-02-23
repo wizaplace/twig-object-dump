@@ -1,0 +1,4 @@
+standard=vendor/wizaplace/php-coding-standard/Wizaplace
+
+DependencyInjection/
+Twig/
