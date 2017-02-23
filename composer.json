@@ -12,5 +12,9 @@
     },
     "autoload": {
         "psr-4": { "Wizaplace\\TwigObjectDumpBundle\\": "" }
+    },
+    "require-dev": {
+        "m6web/coke": " ~2.0",
+        "wizaplace/php-coding-standard": " ~1.0"
     }
 }

@@ -17,3 +17,11 @@ Load dependencies with Composer :
 ```
 $ composer install
 ```
+
+## Coding Style
+
+To ensure that you use the right coding standard, use `coke` :
+
+```
+$ vendor/bin/coke
+```
