@@ -35,7 +35,9 @@ WizaTech\Product
 
 ## Installation
 
+```
 $ composer require wizaplace/twig-object-dump
+```
 
 Don't forget to load the new bundle in the `app/AppKernel.php` :
 
