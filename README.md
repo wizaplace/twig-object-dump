@@ -35,7 +35,18 @@ WizaTech\Product
 
 ## Installation
 
-$ composer require --dev wizaplace/twig-object-dump:~1.0
+$ composer require wizaplace/twig-object-dump
+
+Don't forget to load the new bundle in the `app/AppKernel.php` :
+
+```php
+$bundles = [
+    // ...
+    new Wizaplace\TwigObjectDumpBundle\TwigObjectDumpBundle(),
+];
+```
+
+This extension checks the twig environment and do nothing if it's set to _debug_.
 
 ## Installation for dev
 
