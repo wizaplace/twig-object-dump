@@ -1,9 +1,20 @@
 {
     "name": "wizaplace/twig-object-dump",
-    "description": "Twig object dump bundle ",
-    "keywords": ["Twig", "dump", "object"],
+    "description": "Simple Twig extension improving templates debugging",
+    "keywords": ["Twig", "dump", "object", "debug"],
     "type": "symfony-bundle",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Wizaplace Tech Team",
+            "email": "dev@wizacha.com",
+            "homepage": "http://tech.wizaplace.com"
+        }
+    ],
+    "support" : {
+        "source": "https://github.com/wizaplace/twig-object-dump",
+        "issues": "https://github.com/wizaplace/twig-object-dump/issues"
+    },
     "require": {
         "php": "^7.0",
         "symfony/twig-bundle": "^3.0",
